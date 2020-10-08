@@ -19,6 +19,8 @@ class CreatePostsTable extends Migration
             $table->string('data');
             $table->string('imageURL')->nullable();
             $table->string('user_id');
+            $table->string('user_name');
+            $table->string('user_picture');
             $table->string('topic');
         });
     }

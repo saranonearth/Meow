@@ -87,40 +87,7 @@
 
             </div>
 
-
-            <div class="posts-list">
-
-                <div class="posts-a">
-                    <div class="posts">
-                        @foreach($posts as $post)
-                        <div class="post-card">
-                            <div class="card-top">
-                                <div class="user-part">
-                                    <div> <img src="{{$post->user_picture}}" alt="{{$post->user_name}}" class="post-profile-img"></div>
-                                    <div class="flex">
-                                        <div>
-                                            <p>{{$post->user_name}}</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div>
-                                        <p class="date">{{date('d M Y H:i:s', strtotime($post->created_at))}}</p>
-                                    </div>
-                                </div>
-
-                            </div>
-                            <div>
-                                <p>{{$post->data}}</p>
-                            </div>
-                            <div>
-                                <img class="post-image" src="https://via.placeholder.com/150" alt="">
-                            </div>
-                        </div>
-                        @endforeach
-                    </div>
-                </div>
-            </div>
+            <h1>POST</h1>
         </div>
     </div>
 
