@@ -2,9 +2,9 @@
 Posted
 </h1>
 
-Platform for sharing thoughts.
+Another platform to share kewt cat pictures.😺😺 
 ```
-ps: cats a meoww!
+ps: cats a meoww🐱!
 ```
 <p align="center">
   <img src="https://i.ibb.co/yyqY2bX/main1.png" />
@@ -18,7 +18,7 @@ ps: cats a meoww!
 
 
 
-## mysql config
+## mysql config✔️
 Add the DB details in .env file
 
 ```
@@ -30,7 +30,7 @@ DB_USERNAME=
 DB_PASSWORD=
 
 ```
-## firebase storage config
+## firebase storage config✔️
 
 Add fireabse.js initializing firebase in /public/js
 
@@ -50,11 +50,11 @@ const Firebase = firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
 ```
-## To create migrations
+## To create migrations✔️
 ```
 php artisan migrate:fresh
 ```
-## To serve the application
+## To serve the application🎃
 
 ```
 
