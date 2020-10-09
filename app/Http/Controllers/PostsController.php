@@ -45,7 +45,30 @@ class PostsController extends Controller
     public function getUserPosts($userid)
     {
 
-        error_log($userid);
-        return redirect('/home');
+        $postsOfUser = Post::where('user_id', $userid)->get();
+        $postsCount = count($postsOfUser);
+        $user = User::find($userid);
+
+        return view('userposts', ['user' => $user, 'count' => $postsCount, 'postsuser' => $postsOfUser]);
+    }
+
+    public function removePost()
+    {
+        $postID = request('postid');
+
+        $post = Post::findOrFail($postID);
+
+        $userid = Auth::user()->id;
+
+        if ($userid == $post->user_id) {
+
+
+            $post->delete();
+
+            return redirect('/posts/' . $userid);
+        } else {
+
+            return redirect('/home');
+        }
     }
 }

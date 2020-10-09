@@ -9,6 +9,7 @@ Route::post('/posts', 'App\Http\Controllers\PostsController@add');
 Route::get('/post/{postid}', 'App\Http\Controllers\PostsController@getOne');
 Route::post('/comments', 'App\Http\Controllers\CommentController@add');
 Route::get('/posts/{userid}', 'App\Http\Controllers\PostsController@getUserPosts');
+Route::delete('/remove-post', 'App\Http\Controllers\PostsController@removePost');
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware('auth');

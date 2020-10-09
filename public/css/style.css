@@ -17,6 +17,21 @@ body {
     margin-top: 20px;
 }
 
+.d-btn {
+    border: none;
+    background-color: rgb(214, 42, 42);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+.d-btn:hover {
+    background-color: rgb(233, 59, 59);
+    cursor: pointer;
+}
+
 .side-1 {
     width: 30%;
     text-align: center;
