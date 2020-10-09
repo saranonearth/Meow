@@ -18,6 +18,8 @@ class CreateCommentsTable extends Migration
             $table->string('user_id');
             $table->string('post_id');
             $table->string('message');
+            $table->string('user_name');
+            $table->string('user_picture');
             $table->timestamps();
         });
     }

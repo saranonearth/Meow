@@ -51,6 +51,14 @@
         </div>
 
         <div class="side-2">
+            <div class="bar">
+                <div>
+                    <a class="link-b" href="/home">Home</a>
+                </div>
+                <div class="ml">
+                    <a class="link-b" href="/posts/{{$user->id}}">My posts</a>
+                </div>
+            </div>
             <div class="post-input">
                 <div>
                     <form action="/posts" method="POST">
@@ -77,7 +85,7 @@
 
                                 </div>
                                 <div>
-                                    <button class="submit-btn" type="submit">Submit <i class="fas fa-share"></i></button>
+                                    <button class="submit-btn" type="submit">Post <i class="fas fa-share"></i></button>
                                 </div>
                             </div>
                         </div>
@@ -110,11 +118,14 @@
                                 </div>
 
                             </div>
-                            <div>
+                            <div class="post-data">
                                 <p>{{$post->data}}</p>
                             </div>
-                            <div>
+                            <!-- <div>
                                 <img class="post-image" src="https://via.placeholder.com/150" alt="">
+                            </div> -->
+                            <div class="btn">
+                                <a href="/post/{{$post->id}}">View post</a>
                             </div>
                         </div>
                         @endforeach
