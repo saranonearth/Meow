@@ -28,6 +28,9 @@
             @yield('content')
         </main>
     </div>
+    <script src="https://www.gstatic.com/firebasejs/7.23.0/firebase-app.js"></script>
+    <script src="/js/firebase.js"></script>
+    <script src="/js/fileupload.js"></script>
 </body>
 
 </html>

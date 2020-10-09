@@ -20,6 +20,7 @@ class PostsController extends Controller
         $post->topic = "post";
         $post->user_picture = request('userImage');
         $post->user_name = request('userName');
+        $post->imageURL = request('imageURL');
 
         $post->save();
 
@@ -45,7 +46,7 @@ class PostsController extends Controller
     public function getUserPosts($userid)
     {
 
-        $postsOfUser = Post::where('user_id', $userid)->get();
+        $postsOfUser = Post::latest()->where('user_id', $userid)->get();
         $postsCount = count($postsOfUser);
         $user = User::find($userid);
 
