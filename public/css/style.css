@@ -60,6 +60,27 @@ textarea {
     font-family: "Poppins", sans-serif;
 }
 
+.post-data {
+    margin-bottom: 10px;
+}
+
+.btn {
+    text-align: center;
+    padding: 15px;
+    margin-top: 5px;
+    color: #0a0d24;
+    border-radius: 10px;
+    width: max-content;
+    margin: auto;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.btn>a {
+    color: #0a0d24;
+    text-decoration: none;
+}
+
 .form-control:focus {
     border-color: #202341;
     border-width: 2px;
@@ -165,7 +186,7 @@ textarea {
 }
 
 .posts {
-    width: 80%;
+    width: 70%;
     margin: auto;
 }
 
@@ -182,4 +203,60 @@ textarea {
 .user-part {
     display: flex;
     flex-direction: row;
+}
+
+.side-1 {
+    position: fixed;
+    height: 95vh;
+}
+
+.side-2 {
+    margin-left: 600px;
+}
+
+.bar {
+    background-color: #0a0d24;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.bar>p:hover {
+    cursor: pointer;
+}
+
+.link-b {
+    color: white;
+    text-decoration: none;
+}
+
+.ml {
+    margin-left: 30px;
+}
+
+.width-c {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.comment {
+    margin-top: 20px;
+    border-bottom: 1.5px #efefef solid;
+}
+
+.comments:last-child {
+    border-bottom: none !important;
+}
+
+.small-a {
+    height: 100px;
+}
+
+.mt {
+    margin-top: 10px;
 }
