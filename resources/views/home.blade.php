@@ -26,6 +26,9 @@
 
         <div class="side-1">
             <div>
+                <h1>Posted</h1>
+            </div>
+            <div>
                 <div>
                     <img class="profile-image" src="{{$user->imageURL}}" alt="user-image">
                 </div>
@@ -52,6 +55,7 @@
 
         <div class="side-2">
             <div class="bar">
+
                 <div>
                     <a class="link-b" href="/home">Home</a>
                 </div>
