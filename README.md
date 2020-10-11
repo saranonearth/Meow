@@ -54,6 +54,11 @@ firebase.analytics();
 ```
 php artisan migrate:fresh
 ```
+In case if there is a need to update the migration to specific need then run the following commands over the exsisting migrations
+```
+php artisan migrate:rollback
+php artisan migrate:fresh
+```
 ## To serve the application🎃
 
 ```
