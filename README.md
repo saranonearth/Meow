@@ -4,7 +4,7 @@ Posted🐈
 
 Another platform to share kewt cat pictures.😺😺 
 ```
-ps: cats a meoww🐱!
+ps: cats are meoww🐱!
 ```
 <p align="center">
   <img src="https://i.ibb.co/yyqY2bX/main1.png" />
