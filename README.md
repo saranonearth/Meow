@@ -1,7 +1,9 @@
 <h1 align="center">
 Meow🐈
 </h1>
+
 Platform to share thoughts.😺😺 
+
 ```
 ps: cats are meoww🐱!
 ```
