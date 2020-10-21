@@ -1,8 +1,7 @@
 <h1 align="center">
 Meow🐈
 </h1>
-
-Another platform to share kewt cat pictures.😺😺 
+Platform to share thoughts.😺😺 
 ```
 ps: cats are meoww🐱!
 ```
