@@ -1,5 +1,5 @@
 <h1 align="center">
-Meow🐈
+Posted🐈
 </h1>
 
 Platform to share thoughts.😺😺 
